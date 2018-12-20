@@ -2,21 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zhenkuo</title>
-    <link>https://www.example.com/</link>
+    <link>https://zhenkuo.com/</link>
     <description>Recent content on zhenkuo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 01:48:10 +0800</lastBuildDate>
     
-	<atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhenkuo.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>第 n 次构建 blog，要简单</title>
+      <link>https://zhenkuo.com/posts/blog-again/</link>
+      <pubDate>Fri, 21 Dec 2018 01:48:10 +0800</pubDate>
+      
+      <guid>https://zhenkuo.com/posts/blog-again/</guid>
+      <description>搜索了下当前比较流行的博客系统，Wordpress、Hexo、Jekyll、Hugo。
+不少人用 Wordpress 做过独立站点，虽然生态强大，但独立部署+数据库难免有些臃肿，部署后还需要针对国内网络环境对资源做各种优化。而其余3个本质上是静态文件生成器，并且支持 markdown 语法，托管在 GitHub Pages 非常方便。其中 Hexo 基于 NodeJs，Jekyll 基于 Ruby，Hugo 基于 Go。本质上是不同语言重复造的轮子。
+我最终选了 Hugo，单纯对 Go 有好感。</description>
+    </item>
+    
+    <item>
       <title>Black &amp; Light Demo</title>
-      <link>https://www.example.com/posts/hugo-block-and-light-theme/</link>
+      <link>https://zhenkuo.com/posts/hugo-block-and-light-theme/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/hugo-block-and-light-theme/</guid>
+      <guid>https://zhenkuo.com/posts/hugo-block-and-light-theme/</guid>
       <description>Black and Light is a high contrast, performant and Javascript-free theme.
 Features  Loads in a single request (with web-fonts disabled) 100 / 100 on Google Page Speed test (100 / 100 on mobile with web-fonts disabled) Scriptless (unless you enable Google Analyitcs) Styles inlined in head High Contrast  Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text</description>
@@ -24,43 +35,30 @@ This is bold text</description>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://www.example.com/posts/creating-a-new-theme/</link>
+      <link>https://zhenkuo.com/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/creating-a-new-theme/</guid>
+      <guid>https://zhenkuo.com/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
-      <title>About Hugo</title>
-      <link>https://www.example.com/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.example.com/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
-    </item>
-    
-    <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://www.example.com/posts/goisforlovers/</link>
+      <link>https://zhenkuo.com/posts/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/goisforlovers/</guid>
+      <guid>https://zhenkuo.com/posts/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://www.example.com/posts/hugoisforlovers/</link>
+      <link>https://zhenkuo.com/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/hugoisforlovers/</guid>
+      <guid>https://zhenkuo.com/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -71,13 +69,24 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://www.example.com/posts/migrate-from-jekyll/</link>
+      <link>https://zhenkuo.com/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/migrate-from-jekyll/</guid>
+      <guid>https://zhenkuo.com/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>About Zhenkuo</title>
+      <link>https://zhenkuo.com/about/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenkuo.com/about/</guid>
+      <description>Github
+Weibo
+Homepage</description>
     </item>
     
   </channel>
