@@ -1,0 +1,17 @@
+baseurl = "https://www.example.com/"
+title = "zhenkuo"
+author = "Zhenkuo Liu"
+canonifyurls = true
+languagecode = "zh-CN"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "zhenkuo"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "关于"
+    url  = "/about"
