@@ -38,7 +38,7 @@
     <section id=nav>
       <h1><a href="/">{{ .Site.Params.sitename }}</a></h1>
       <ul>
-        {{ range .Site.Menus.main }}
+        {{ range .Site.Menus.main.ByWeight }}
           <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>

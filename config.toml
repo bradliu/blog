@@ -13,5 +13,16 @@ pygmentscodefences  = true
   disableWebFonts = false
 
 [[menu.main]]
+    name = "文章"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
     name = "关于"
     url  = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Github"
+    url  = "https://github.com/bradliu"
+    weight = 3
