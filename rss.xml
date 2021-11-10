@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>zhenkuo</title><link>https://zhenkuo.com/</link><description>zhenkuo 的博客</description><generator>Hugo 0.89.2 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>hi@zhenkuo.com (zhenkuo)</managingEditor><webMaster>hi@zhenkuo.com (zhenkuo)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Wed, 10 Nov 2021 13:29:21 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://zhenkuo.com/rss.xml"/><item><title>概念：人工智能、机器学习、深度学习</title><link>https://zhenkuo.com/posts/artificial-intelligence-vs-machine-learning-vs-deep-learning/</link><guid isPermaLink="true">https://zhenkuo.com/posts/artificial-intelligence-vs-machine-learning-vs-deep-learning/</guid><pubDate>Tue, 25 Dec 2018 21:55:45 +0800</pubDate><author>hi@zhenkuo.com (zhenkuo)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>作者：Venkatesan M&lt;br>
+中文翻译：刘振阔&lt;br>
+原文链接：https://www.datasciencecentral.com/profiles/blogs/artificial-intelligence-vs-machine-learning-vs-deep-learning&lt;/p>
+&lt;p>机器学习和人工智能（AI）在当下非常流行 - 但是当所有流行语围绕着它们的时候，很容易迷惑，无法分辨是宣传还是事实。例如，仅仅在计算信息时使用了某种算法并不意味着应该贴上「机器学习」或「人工智能」的标签。&lt;/p>
+&lt;p>在我们定义 AI 或机器学习之前，我想先定义一个概念，也是 AI 和机器学习的核心：算法。&lt;/p>
+&lt;h3 id="算法是什么">算法是什么？&lt;/h3>
+&lt;p>算法是解决问题时要遵守的一套规则。在机器学习中，算法接收数据并执行运算来找到答案。算法可以非常简单也可以非常复杂，算法应该以最高效的方式给出答案。算法分析数据花费的时间比人类长还有什么用呢？算法给出了错误数据还有什么用呢？&lt;/p>
+&lt;p>算法需要训练以学会如何归类并处理信息，算法的效率和准确性取决于算法训练的是否足够好，使用算法计算某些东西并不意味着使用了机器学习或者 AI。 就好比所有的正方形都是矩形，但并非所有矩形都是正方形。&lt;/p>
+&lt;p>不幸的是，现在我们经常看到机器学习和人工智能的流行语被丢出来表明使用了算法来分析数据和做出预测。使用算法来预测事件结果并不是机器学习，使用预测结果来增强未来的预测才是。&lt;/p>
+&lt;h3 id="人工智能-vs-机器学习-vs-深度学习">人工智能 vs. 机器学习 vs. 深度学习&lt;/h3>
+&lt;p>人工智能和机器学习通常可以互换使用，尤其是在大数据领域。但这不是一回事，弄清如何以不同的方式应用他们很重要。&lt;/p>
+&lt;p>&lt;img src="http://wx1.sinaimg.cn/large/893a9021ly1fyjcmlayu5j20u00j30wu.jpg" alt="deep">&lt;/p>
+&lt;p>人工智能是比机器学习更宽泛的概念，机器学习指的是利用计算机模拟人类的认知功能。当机器以一种「智能」的方式基于算法执行任务时，就是人工智能。机器学习是人工智能的一个子集，侧重于机器接收一组数据并且自我学习的能力，随着它们在信息处理过程中的不断学习算法也随之变化。&lt;/p>
+&lt;p>通过使用神经网络来训练计算机像人类一样思考。神经网络是一系列以人脑为模型的算法。正如大脑可以识别模式并帮助我们对信息进行分类和分类一样，神经网络也可以为计算机做同样的事情。 大脑不断尝试理解它正在处理的信息，为此，它会将事物标记并归类。当我们遇到新事物时，我们会尝试将其与已知事物进行比较以帮助我们理解并把它弄清楚，神经网络对计算机也是如此。&lt;/p>
+&lt;p>&lt;strong>神经网络的作用：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>从复杂的数据中提取有意义的信息&lt;/li>
+&lt;li>发现趋势并识别更复杂的模式以供人们注意&lt;/li>
+&lt;li>通过示例学习&lt;/li>
+&lt;li>速度优势&lt;/li>
+&lt;/ul>
+&lt;p>深度学习可以更进一步的认为是机器学习的一个子集。深度学习的概念有时被称为「深度神经网络」，涉及到许多层次。神经网络可能只有一层数据，而深层神经网络可能有两层或多层。这些层可以看作是相关概念或决策树的嵌套层次结构。一个问题的答案会引出一系列更深层次的相关问题。&lt;/p>
+&lt;p>深度学习网络的训练需要大量的项目。系统从暴露的数百万个数据点中学习，而不是在定义好项目边界内进行编程。 早期的一个例子是 Google Brain 在观察了超过一千万张图像后学习识别猫。 深度学习网络不需要针对特定的项目进行编程，他们能够通过暴露在大量数据中来确定边界。&lt;/p>
+&lt;p>数据是重要的核心。无论你使用的是算法，人工智能，还是机器学习，有一点是肯定的：如果使用的数据存在缺陷，那么得到的insights和信息就会存在缺陷。&lt;/p>
+&lt;p>&lt;strong>什么是数据清洗？&lt;/strong>&lt;/p>
+&lt;p>「从记录集，表格或数据库中检测和纠正（或删除）损坏或不准确的记录的过程，也就是识别数据的不完整，不正确或不相关的部分，然后替换、修改或删除脏的或质量差的数据。」&lt;/p>
+&lt;p>根据 CrowdFlower 数据科学报告，数据科学家花费大部分时间来清洗数据 - 令人惊讶的是，这也是他们工作中最不喜欢的部分。尽管这样，它却是最重要的部分，因为如果数据尚未清洗，输出是无法被信任的。&lt;/p>
+&lt;p>为了使 AI 和机器学习继续发展，驱动算法和用于决策的数据必须是高质量的。如果数据都无法被信任的话，从数据得到的见解又怎能令人信服呢?&lt;/p></description><category domain="https://zhenkuo.com/posts/">posts</category></item><item><title>第 n 次构建 blog，要简单</title><link>https://zhenkuo.com/posts/blog-again/</link><guid isPermaLink="true">https://zhenkuo.com/posts/blog-again/</guid><pubDate>Fri, 21 Dec 2018 01:48:10 +0800</pubDate><author>hi@zhenkuo.com (zhenkuo)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>搜索了下当前比较流行的博客系统，Wordpress、Hexo、Jekyll、Hugo。&lt;/p>
+&lt;p>不少人用 Wordpress 做过独立站点，虽然生态强大，但独立部署+数据库难免有些臃肿，部署后还需要针对国内网络环境对资源做各种优化。而其余3个本质上是静态文件生成器，并且支持 markdown 语法，托管在 GitHub Pages 非常方便。其中 Hexo 基于 NodeJs，Jekyll 基于 Ruby，Hugo 基于 Go。本质上是不同语言重复造的轮子。&lt;/p>
+&lt;p>我最终选了 Hugo，单纯对 Go 有好感。&lt;/p></description><category domain="https://zhenkuo.com/posts/">posts</category></item></channel></rss>
