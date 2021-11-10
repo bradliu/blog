@@ -1,5 +1,5 @@
 +++
-title = "About Zhenkuo"
+title = "About"
 date = "2011-01-01"
 +++
 
