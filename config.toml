@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://zhenkuo.com/"
+baseURL = "https://blog.zhenkuo.com/"
 title = "zhenkuo"
 languageCode = "zh-CN"
 hasCJKLanguage = true
