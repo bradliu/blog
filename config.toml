@@ -726,13 +726,13 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableGoogleAnalytics = false
+    enableGoogleAnalytics = true
 
     # 跟踪代码的类型
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = "UA-101862623-2"
+    trackingID = "G-5FSVGN8WLG"
 
 
     ######################################
@@ -1499,6 +1499,6 @@ uglyURLs = false
         # 网站（默认值：baseURL）
         website = "https://blog.zhenkuo.com/"
         # 推特
-        twitter = "reuixiy"
+        twitter = ""
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        fediverse = ""
