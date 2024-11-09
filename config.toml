@@ -187,59 +187,22 @@ uglyURLs = false
         weight = 1
         pre = "internal"
         post = "archive"
-        identifier = "post"
+    [[menu.main]]
+         url = "/categories/"
+         name = "分类"
+         weight = 2
+         pre = "internal"
+         post = "th"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 2
+        weight = 3
         pre = "internal"
         post = "user-circle"
-        identifier = "about"
     [[menu.main]]
-        weight = 3
+        weight = 4
         identifier = "theme-switcher"
-    # [[menu.main]]
-    #     url = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
-    # [[menu.main]]
-    #     url = "/posts/"
-    #     name = "文章"
-    #     weight = 2
-    #     pre = "internal"
-    #     post = "archive"
-    # [[menu.main]]
-    #     url = "/categories/"
-    #     name = "分类"
-    #     weight = 3
-    #     pre = "internal"
-    #     post = "th"
-    # [[menu.main]]
-    #     url = "/tags/"
-    #     name = "标签"
-    #     weight = 4
-    #     pre = "internal"
-    #     post = "tags"
-    # [[menu.main]]
-    #     url = "/about/"
-    #     name = "关于"
-    #     weight = 5
-    #     pre = "internal"
-    #     post = "user-circle"
-    # [[menu.main]]
-    #     weight = 6
-    #     identifier = "theme-switcher"
-    # [[menu.main]]
-    #     weight = 7
-    #     identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 8
-    #     identifier = "search"
-    #     post = "search"
-
-
+   
 
 ##########################################
 # 主题配置
@@ -287,7 +250,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 2
+    siteBrandFontSize = 1
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -295,11 +258,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = false
+    enableMenu = true
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = false
+    displayMenuInHome = true
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -1027,7 +990,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 18
 
     ######################################
     ## 制表符的宽度
@@ -1301,7 +1264,7 @@ uglyURLs = false
     # 年份与作者之间的图标，留空（""）则无
     iconBetweenYearAndAuthor = "heart"
     # 图标颜色
-    iconColor = "#f06292"
+    iconColor = "#ff3300"
     # 是否开启图标的跳动效果
     iconAnimation = true
     
