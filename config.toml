@@ -194,13 +194,19 @@ uglyURLs = false
          pre = "internal"
          post = "th"
     [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 3
+        pre = "internal"
+        post = "tags"
+    [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 3
+        weight = 4
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 4
+        weight = 5
         identifier = "theme-switcher"
    
 
@@ -765,7 +771,7 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = false
+    enablePostMeta = true
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
