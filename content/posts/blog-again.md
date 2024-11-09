@@ -3,6 +3,7 @@ author: "Zhenkuo Liu"
 date: 2018-12-21T01:48:10+08:00
 title: "第 n 次构建 blog，要简单"
 linktitle: Blog Again
+draft: true
 ---
 
 
